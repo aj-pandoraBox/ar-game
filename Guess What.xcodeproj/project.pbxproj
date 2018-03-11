@@ -14,6 +14,8 @@
 		BBFE24C520539A77005C0B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFE24C320539A77005C0B5C /* LaunchScreen.storyboard */; };
 		BBFE24D020539A77005C0B5C /* Guess_WhatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE24CF20539A77005C0B5C /* Guess_WhatTests.swift */; };
 		BBFE24DB20539A77005C0B5C /* Guess_WhatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE24DA20539A77005C0B5C /* Guess_WhatUITests.swift */; };
+		BBFE24E92053A6B1005C0B5C /* ViewControllerPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE24E82053A6B0005C0B5C /* ViewControllerPlay.swift */; };
+		BBFE24EB2053BB25005C0B5C /* ArViewChallegeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFE24EA2053BB25005C0B5C /* ArViewChallegeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BBFE24D620539A77005C0B5C /* Guess WhatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess WhatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFE24DA20539A77005C0B5C /* Guess_WhatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_WhatUITests.swift; sourceTree = "<group>"; };
 		BBFE24DC20539A77005C0B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFE24E82053A6B0005C0B5C /* ViewControllerPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlay.swift; sourceTree = "<group>"; };
+		BBFE24EA2053BB25005C0B5C /* ArViewChallegeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewChallegeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				BBFE24C120539A77005C0B5C /* Assets.xcassets */,
 				BBFE24C320539A77005C0B5C /* LaunchScreen.storyboard */,
 				BBFE24C620539A77005C0B5C /* Info.plist */,
+				BBFE24E82053A6B0005C0B5C /* ViewControllerPlay.swift */,
+				BBFE24EA2053BB25005C0B5C /* ArViewChallegeController.swift */,
 			);
 			path = "Guess What";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFE24EB2053BB25005C0B5C /* ArViewChallegeController.swift in Sources */,
+				BBFE24E92053A6B1005C0B5C /* ViewControllerPlay.swift in Sources */,
 				BBFE24BD20539A77005C0B5C /* ViewController.swift in Sources */,
 				BBFE24BB20539A77005C0B5C /* AppDelegate.swift in Sources */,
 			);
